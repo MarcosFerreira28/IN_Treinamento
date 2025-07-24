@@ -131,7 +131,7 @@ header nav a:active {
     gap: 17px; 
 }
 
-/* inserir os bannerzinho mt louco */
+/* inserir os bannerzinho mt louco e imagens */
 
 .rank li{
     width: 102px;
@@ -150,3 +150,64 @@ header nav a:active {
 }
 
 /* --------------------------------------section form------------------------------------------ */
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+section h2 {
+    font-size: 24px;
+    font-weight: 400px;
+    color: black;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section form input {
+    width: 1128px;
+    height: 56px;
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 4px;
+}
+
+section form textarea {
+    width: 1128px;
+    height: 56px;
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 4px;
+}
+
+section form textarea::placeholder {
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+section form input::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+section form button {
+    width: 127px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+}
+
+section form button:hover {
+    background-color: blue;
+    color: black;
+    font-weight: 600px;
+    transition: 0.2s;
+}
