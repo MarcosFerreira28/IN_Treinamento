@@ -110,7 +110,7 @@ header nav a:active {
 
 .hobbie ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: 17px;
 }
 
