@@ -37,10 +37,46 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
     color: aqua;
-    font-size: 26px;
+    font-size: 24px;
     transition: 0.2s;
 }
 
 header nav a:active {
     color: blue;
+}
+
+/* --------------------------------------main: sobre------------------------------------------ */
+.sobre {
+    height: 318px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F3F3F3;
+}
+
+.sobre div {
+    width: 614px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre h2 {
+    font-size: 24px;
+    font-weight: 400px;
+    color: black;
+}
+
+.sobre p {
+    font-size: 16px;
+    font-weight: 400px;     
+    color: black;
+}
+
+.sobre img {
+    border-radius: 50%;
+    width: 247px;
+    height: 247px;  
 }
