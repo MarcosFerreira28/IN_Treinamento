@@ -219,7 +219,7 @@ header a:active {
     height: 44px;
     font-size: 16px;
     font-weight: 400px;
-    background-color: #a7a7a7;
+    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,7 +259,7 @@ section form input {
     height: 56px;
     background-color: #DFDFDF;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     padding-left: 10px;
 }
 
@@ -271,7 +271,7 @@ section form input::placeholder {
 section form button {
     width: 127px;
     height: 37px;
-    border-radius: 4px;
+    border-radius: 5px;
     border: none;
     background-color: #DFDFDF;
     margin-right: 30px;
@@ -314,9 +314,16 @@ footer div button{
     height: 38px;
     background-color: #84a3f0;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 400px;
+}
+
+footer div button:hover{
+    width: 170px;
+    height: 46px;
+    background-color: aqua;
+    transition: 0.5s;
 }
 
 /* --------------------------RESPONSIVIDADE------------- */
