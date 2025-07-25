@@ -303,6 +303,11 @@ footer nav {
     gap: 10px;
 }
 
+footer nav img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
 /* adicionar imagens no lugar dos links e fazer a responsividade, DEIXAR BONITO TAMBÉM, e COLOCAR O BANNERZIN NOS TOP 5 ALÉM DE UMA IMAGEM DE FUNDO*/
 
 
