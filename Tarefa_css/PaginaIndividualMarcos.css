@@ -286,3 +286,50 @@ footer nav {
 #ADBBDA
 #EDE8F5
 */
+
+/* --------------------------RESPONSIVIDADE------------- */
+
+@media screen and (max-width: 431px) {
+
+    .sobre {
+        flex-direction: column;
+        height: 584px;
+    }
+
+    .sobre div {
+        width: 403px;
+        height: 242px;  
+        align-items: baseline;
+    }
+
+    .rank {
+        height: 890px;
+        flex-direction: column;
+    }
+
+    .hobbie {
+        width: 424px;
+        height: 425px;
+        align-items: baseline;
+    }
+
+
+
+    section {
+        height: 236px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section form {
+        align-items: center;
+    }
+
+    section form input {
+        width: 373px;
+    }
+
+    section form button {
+        width: 79px;
+    }
+}
