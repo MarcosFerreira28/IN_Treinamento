@@ -120,25 +120,29 @@ header nav a:active {
 }
 
 .hobbie ul{
+    width: 555px;
+    height: 150px;
     display: flex;
     flex-direction: row-reverse;
-    gap: 17px;
+    gap: 10px;
 }
 
 .top5 ol{
+    width: 555px;
+    height: 150px;
     display: flex;
     flex-direction: row;
-    gap: 17px; 
+    gap: 10px; 
 }
 
 /* inserir os bannerzinho mt louco e imagens */
 
-.rank li{
-    width: 102px;
+.hobbie ul li{
+    width: 103px;
     height: 150px;
     background-color: #DFDFDF;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,6 +151,55 @@ header nav a:active {
     font-size: 16px;
     font-weight: 400px;
     color: black;
+}
+
+.top5 ol li{
+    width: 103px;
+    height: 150px;
+    background-color: #DFDFDF;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: black;
+}
+
+.top5 ol div li{
+    padding-bottom: 0px;
+}
+
+.top5 div{
+    width: 103px;
+    height: 150px;
+    background-color: #DFDFDF;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: black;
+}
+
+.top5 ol div span{
+    width: 19px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400px;
+    background-color: #a7a7a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 /* --------------------------------------section form------------------------------------------ */
@@ -223,4 +276,4 @@ footer nav {
     gap: 10px;
 }
 
-/* adicionar imagens no lugar dos links e fazer a responsividade, DEIXAR BONITO TAMBÉM*/
+/* adicionar imagens no lugar dos links e fazer a responsividade, DEIXAR BONITO TAMBÉM, e COLOCAR O BANNERZIN NOS TOP 5 ALÉM DE UMA IMAGEM DE FUNDO*/
