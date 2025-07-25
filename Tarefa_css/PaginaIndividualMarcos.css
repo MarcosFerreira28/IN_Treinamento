@@ -5,7 +5,7 @@
 
 header {
     height: 109px;
-    background-color: #C4C4C4;
+    background-color: #6d86e2;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,7 +16,7 @@ header {
 
 
 header h1 {
-    color: black;
+    color: #141619; 
     font-size: 40px;
     font-weight: 400px;
 }
@@ -42,7 +42,7 @@ header nav a:hover {
 }
 
 header nav a:active {
-    color: blue;
+    color: red;
 }
 
 /* --------------------------------------main: sobre------------------------------------------ */
@@ -52,7 +52,7 @@ header nav a:active {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #F3F3F3;
+    background-color: #84a3f0;
 }
 
 .sobre div {
@@ -88,6 +88,7 @@ header nav a:active {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #84a3f0;
 }
 
 .hobbie {
@@ -135,14 +136,12 @@ header nav a:active {
     gap: 10px; 
 }
 
-/* inserir os bannerzinho mt louco e imagens */
-
 .hobbie ul li{
     width: 103px;
     height: 150px;
     background-color: #DFDFDF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,7 +157,7 @@ header nav a:active {
     height: 150px;
     background-color: #DFDFDF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,13 +204,14 @@ header nav a:active {
 /* --------------------------------------section form------------------------------------------ */
 
 section{
-    width: 1168px;
     height: 236px;
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
-    margin-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 30px;
     gap: 20px;
+    background-color: #84a3f0;
 }
 
 section h2 {
@@ -230,7 +230,7 @@ section form{
 section form input {
     width: 1128px;
     height: 56px;
-    background-color: #F3F3F3;
+    background-color: #DFDFDF;
     border: none;
     border-radius: 4px;
     padding-left: 10px;
@@ -246,12 +246,12 @@ section form button {
     height: 37px;
     border-radius: 4px;
     border: none;
-    background-color: #F3F3F3;
+    background-color: #DFDFDF;
     margin-right: 30px;
 }
 
 section form button:hover {
-    background-color: blue;
+    background-color: aqua;
     color: black;
     font-weight: 600px;
     transition: 0.2s;
@@ -261,7 +261,7 @@ section form button:hover {
 
 footer{
     height: 70px;
-    background-color: #C4C4C4;
+    background-color: #DFDFDF;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -277,3 +277,12 @@ footer nav {
 }
 
 /* adicionar imagens no lugar dos links e fazer a responsividade, DEIXAR BONITO TAMBÉM, e COLOCAR O BANNERZIN NOS TOP 5 ALÉM DE UMA IMAGEM DE FUNDO*/
+
+
+/* 
+#3D52A0
+#7091E6
+#8697C4
+#ADBBDA
+#EDE8F5
+*/
