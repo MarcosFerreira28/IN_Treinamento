@@ -557,6 +557,12 @@ footer div button:hover{
     section form button {
         width: 79px;
     }
+    /*---------------------------------------------------- */
 
+    footer{
+        height: 127px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
 
 }
