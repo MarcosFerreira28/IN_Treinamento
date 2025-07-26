@@ -1,39 +1,54 @@
-const { createElement } = require("react")
-
-let notas = []
-
-let buttonAdd = document.querySelector("#adicionar")
-
 function RecebeNota(){
-    let nota = document.querySelector("#nota")
-    console.log(nota.value)
+    let nota = document.querySelector("#nota");
+    nota.value = nota.value.replace(",", ".");
 
-    nota.value = nota.value.replace(",", ".")
-    let valor = parseFloat(nota.value)
+    let valor = parseFloat(nota.value);
 
     if (nota.value.trim() == ""){
-        alert("Por favor, insira uma nota")
-        return
+        alert("Por favor, insira uma nota");
+        return;
     }
     else if(valor.toString() !== nota.value){
-        alert("A nota digitada é inválida, por favor, insira uma nota válida")
-        return
+        alert("A nota digitada é inválida, por favor, insira uma nota válida");
+        return;
     }
     else if (valor < 0 || valor > 10){
-        alert("A nota digitada é inválida, por favor, insira uma nota válida")
-        return
+        alert("A nota digitada é inválida, por favor, insira uma nota válida");
+        return;
     }
 
-    notas.push(nota.value)
+    notas.push(valor);
 
-    let resposta = document.createElement
+    let texto = ""
+    for (let i = 0; i < notas.length; i++){
+        texto += "A nota " + (i+1) + " foi " + notas[i] + "\n";
+    }
 
-    console.log("teste")
+    area.value = texto;
 }
 
 function CalculaMedia(){
+    let media = 0;
+    let contador = 0
+    for (let i = 0; i < notas.length; i++){
+        media += notas[i];
+        contador += 1;
+        console.log(media)
+    }
 
+    media = media/contador
+
+    let resposta = document.createElement("p");
+    resposta.innerText = media;
+    let div = document.querySelector(".media");
+    div.append(resposta);
 }
 
-buttonAdd.addEventListener("click", RecebeNota)
+let notas = [];
 
+let buttonAdd = document.querySelector("#adicionar");
+let buttonCalc = document.querySelector("#calcular");
+let area = document.querySelector(".area");
+
+buttonAdd.addEventListener("click", RecebeNota);
+buttonCalc.addEventListener("click", CalculaMedia);
