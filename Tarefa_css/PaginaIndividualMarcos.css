@@ -471,7 +471,7 @@ footer div button:hover{
         width: 120px;
     }
 
-    .top5mobile span{
+    .topinferior{
         width: 384px;
         height: 150px;
         display: flex;
@@ -509,7 +509,7 @@ footer div button:hover{
         padding-bottom: 0px;
     }
 
-    .top5mobile div{
+    .top5mobile ol div{
         width: 103px;
         height: 150px;
         background-color: #DFDFDF;
