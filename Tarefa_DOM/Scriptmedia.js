@@ -27,21 +27,20 @@ function RecebeNota(){
     area.value = texto;
 }
 
-function CalculaMedia(){
-    let media = 0;
-    let contador = 0
-    for (let i = 0; i < notas.length; i++){
-        media += notas[i];
-        contador += 1;
-        console.log(media)
-    }
+    function CalculaMedia(){
+        let media = 0;
+        let contador = 0
+        for (let i = 0; i < notas.length; i++){
+            media += notas[i];
+            contador += 1;
+        }
 
-    media = media/contador
+        media = media/contador
 
-    let resposta = document.createElement("p");
-    resposta.innerText = media;
-    let div = document.querySelector(".media");
-    div.append(resposta);
+        let resposta = document.createElement("p");
+        resposta.innerText = media.toFixed(2);
+        let div = document.querySelector(".media");
+        div.append(resposta);
 }
 
 let notas = [];
