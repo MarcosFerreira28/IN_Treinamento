@@ -51,3 +51,8 @@ textarea {
     resize: none;
     overflow-y: scroll;
 }
+
+.media {
+    display: flex;
+    flex-direction: row;
+}
