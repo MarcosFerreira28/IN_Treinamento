@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    height: 320px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.inputnota {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputnota p{
+    padding-right: 5px;
+}
+
+.inputnota button {
+    margin-left: 5px;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+}
+
+.media p {
+    padding-right: 3px;
+}
