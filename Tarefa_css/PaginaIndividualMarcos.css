@@ -183,6 +183,44 @@ header a:active {
     color: black;
 }
 
+#futebol {
+    background-image: url('./assets/futebol.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#serie {
+    background-image: url('./assets/serie.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#jogos {
+    background-image: url('./assets/jogos.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#tenis {
+    background-image: url('./assets/tenis.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#dirigir {
+    background-image: url('./assets/dirigir.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
 .top5 ol li{
     width: 103px;
     height: 150px;
@@ -212,6 +250,7 @@ header a:active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-evenly;
     padding-bottom: 10px;
     font-size: 16px;
     font-weight: 400px;
@@ -228,8 +267,57 @@ header a:active {
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+    margin-bottom: 100px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.top5 ol div p{
+    padding-left: 5px;
+    /* margin-top: 115px; */
+}
+
+#zelda {
+    background-image: url('./assets/zelda.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#csgo {
+    background-image: url('./assets/csgo.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#csgo p {
+    padding-left: 27px;
+}
+
+#hollow {
+    background-image: url('./assets/hollow.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#gta5 {
+    background-image: url('./assets/gta5.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#cuphead {
+    background-image: url('./assets/cuphead.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
 }
 
 /* --------------------------------------section form------------------------------------------ */
@@ -505,7 +593,7 @@ footer div button:hover{
         color: black;
     }
 
-    .top5mobile ol div li{
+    .top5mobile ol div p{
         padding-bottom: 0px;
     }
 
@@ -518,6 +606,7 @@ footer div button:hover{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: space-evenly;
         padding-bottom: 10px;
         font-size: 16px;
         font-weight: 400px;
@@ -534,9 +623,19 @@ footer div button:hover{
         align-items: center;
         justify-content: center;
         margin-left: 10px;
+        margin-bottom: 100px;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
+
+    .top5mobile #zelda {
+        padding-left: 5px;
+    }
+
+    .top5mobile #hollow{
+        padding-left: 5px;
+    }
+    
 
     /* -------------------------------- */
 
